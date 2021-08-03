@@ -123,6 +123,13 @@
 
 			switch(season){
 
+				case 'default':
+					$('main header h3').html('Outfitter for All Seasons!');
+					$('#logo').attr('src','images/four-seasons.jpg');
+					$('#wear').attr('src','images/300x400.png');
+					$('html').css('background-color','#C9A9A6');
+				break;
+				
 				case 'spring':
 					$('main header h3').html('Jump into Spring Wear!');
 					$('#logo').attr('src','images/spring.jpg');
